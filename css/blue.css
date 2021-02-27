@@ -1,0 +1,95 @@
+body {
+	background-image:url(../images/blue/main_back.jpg);
+}
+h2 {
+	color:#b75325
+}
+h2:after {
+	background: url(../images/blue/bullet.png);
+	background-size: cover;
+}
+.bullet {
+	background: url(../images/blue/bullet.png);
+	background-size: cover;
+}
+.im_arrows:before {
+	background: url(../images/blue/im_arrow_end.png);
+	background-size: cover;
+}
+.im_arrows:after {
+	background: url(../images/blue/im_arrow_start.png);
+	background-size: cover;
+}
+
+.btn {
+	color:#b75325!important;
+	border: 2px solid #b75325
+	
+}
+	.btn:hover {
+		background:#b75325;
+		color:#fff!important
+	}
+	.btn:active, .btn:focus {
+		background:#b75325;
+	}
+.married_countdown {
+	color: #b75325;
+}
+.double_arrow {
+	background: url(../images/blue/double_arrow.png);
+	background-size: cover;
+}
+
+.owl-pagination {
+	background: url(../images/blue/arrow_back.png) repeat-x;
+	background-size: cover
+}
+.owl-pagination:before {
+	background: url(../images/blue/arrow_end.png);
+	background-size: cover;
+}
+.owl-pagination:after {
+	background: url(../images/blue/arrow_start.png);
+	background-size: cover;
+}
+.owl-page:after {
+	background: url(../images/blue/bullet.png);
+	background-size: cover
+}
+.owl-page.active:after {
+	background: url(../images/blue/bullet_active.png);
+	background-size: cover
+}
+
+.story_title, .story_title i {
+	color: #b75325;
+}
+.story_title:before, .story_title:after {
+	background:#b75325;
+}
+
+.when_where .over{
+	background:rgba(100,138,163,0.83);
+}
+.footer .over {
+	background:rgba(100,138,163,0.6);
+}
+.paper {
+	background:url(../images/blue/paper.jpg);
+}
+.envelope_back {
+	background:url(../images/blue/env_back.jpg);
+}
+.env_top {
+	background: url(../images/blue/env_top.png);
+}
+.env_top_top {
+	background: url(../images/blue/env_top_top.png);
+}
+.envelope_front {
+	background:url(../images/blue/envelope_front.png);
+}
+.paper .paper_title {
+	color: #b75325;
+}
