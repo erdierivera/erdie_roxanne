@@ -24,11 +24,8 @@
 		});
 	  }
 	};
-	})(Audio.prototype.play);  
-  
-  
-  var test = document.getElementById("mobile_audio_player");
-  test.play();
+	})(Audio.prototype.play);
+	
     "use strict";
 
     /*RSVP Form*/
