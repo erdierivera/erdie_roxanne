@@ -28,8 +28,13 @@ body {
 }
 
 @media (pointer:none), (pointer:coarse) {
-	.mobile_player {
-		visibility: visible!important;
+		#monogram_header {
+			visibility: hidden!important;
+			}
+			
+
+		.photocamera {
+		  margin: -100px -50px 0 0!important;
 		}
 }
 
