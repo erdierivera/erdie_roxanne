@@ -27,6 +27,12 @@ body {
 
 }
 
+@media (pointer:none), (pointer:coarse) {
+	.mobile_player {
+		visibility: visible!important;
+		}
+}
+
 body b {
   font: 500 15px/24px Roboto Condensed;
 }
@@ -162,7 +168,9 @@ header {
   position: absolute;
   right: 16px;
   margin: 5px 0 0 0;
-  font-size: 16px
+  font-size: 16px;
+  display:inline;
+  margin: 20px 0px 0px 20px;
 }
 
 .header_social a {
@@ -195,14 +203,14 @@ header {
 
 .main_menu_btn {
   cursor: pointer;
-  display: block;
+  display: inline;
   height: 48px;
   position: absolute;
   transform: translateZ(0px);
   width: 48px;
   z-index: 103;
   padding: 10px;
-  margin: 7px 0 0 16px
+  margin: 20px 0px 0px 20px;
 
 }
 
@@ -2037,3 +2045,4 @@ a.maplink:active {
 a.maplink:visited {
   text-decoration: none;
 }
+
