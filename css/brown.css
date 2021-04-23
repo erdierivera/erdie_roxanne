@@ -2,7 +2,7 @@ body {
 	background-image:url(../images/brown/main_back.jpg);
 }
 h2 {
-	color:#b75325
+	color:#b75325eb
 }
 /* h2:after { */
 	/* background: url(../images/brown/bullet.png); */
@@ -28,19 +28,19 @@ h2 {
 }
 
 .btn {
-	color:#b75325!important;
-	border: 2px solid #b75325
+	color:#b75325eb!important;
+	border: 2px solid #b75325eb
 	
 }
 	.btn:hover {
-		background:#b75325;
+		background:#b75325eb;
 		color:#fff!important
 	}
 	.btn:active, .btn:focus {
-		background:#b75325;
+		background:#b75325eb;
 	}
 .married_countdown {
-	color: #b75325;
+	color: #b75325eb;
 }
 .double_arrow {
 	background: url(../images/brown/double_arrow.png);
@@ -69,10 +69,10 @@ h2 {
 }
 
 .story_title, .story_title i {
-	color: #b75325;
+	color: #b75325eb;
 }
 .story_title:before, .story_title:after {
-	background:#b75325;
+	background:#b75325eb;
 }
 
 .when_where .over{
@@ -97,5 +97,5 @@ h2 {
 	background:url(../images/brown/envelope_front.png);
 }
 .paper .paper_title {
-	color: #b75325;
+	color: #b75325eb;
 }

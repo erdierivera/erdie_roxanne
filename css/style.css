@@ -1511,11 +1511,11 @@ header {
 
 .title0 {
   font: 300 16px/28px Roboto Condensed;
-  color: rgba(255, 255, 255, 0.5);
+  color: #b75325eb;
 }
 
 .rsvp_footer {
-	color:#b75325!important;
+	color:#b75325eb!important;
 }
 
 .title1 {
@@ -1528,14 +1528,15 @@ header {
 }
 .box{
   padding: 20px;
-  background: rgb(34, 34, 34); /* for IE */
-  background: rgba(34, 34, 34, 0.75);
+  /* for IE */
+  /* background: rgb(34, 34, 34);  */
+  /* background: rgba(34, 34, 34, 0.75); */
   width: 50%;
   overflow: none;
   display: block;
   margin: auto;
   border-radius: 2px;
-  color: rgba(255, 255, 255, 0.85);
+  color: #b75325eb;
 }
 
 .box2{
