@@ -90,7 +90,7 @@
     /*Gallery ColorBox */
     $('.gallery_txt a').colorbox({
       rel: 'gal',
-      maxWidth: "100%",
+      maxWidth: "40%",
     });
 
     /*Main Menu Button */
@@ -159,7 +159,7 @@
     /*Gallery Carousel */
     $(".gallery_wrapper").owlCarousel({
       navigation: true, responsive: true, responsiveRefreshRate: 200, slideSpeed: 200,
-      paginationSpeed: 200, rewindSpeed: 500, items: 3, itemsTablet: [768, 2], autoPlay: true,
+      paginationSpeed: 200, rewindSpeed: 500, items: 4, itemsTablet: [768, 2], autoPlay: true,
       itemsMobile: [479, 1], mouseDrag: true
     });
 
