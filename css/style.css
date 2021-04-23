@@ -1531,7 +1531,7 @@ header {
   /* for IE */
   /* background: rgb(34, 34, 34);  */
   /* background: rgba(34, 34, 34, 0.75); */
-  width: 50%;
+  width: 100%;
   overflow: none;
   display: block;
   margin: auto;
