@@ -28,7 +28,7 @@ body {
 }
 
 @media (pointer:none), (pointer:coarse) {
-		#monogram_header {
+		#monogram_header, .im1, .im2{
 			visibility: hidden!important;
 			}
 			
