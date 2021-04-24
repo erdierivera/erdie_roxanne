@@ -1,33 +1,30 @@
 ﻿(function ($) {
   $(document).ready(function () {  
   
-	// var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);  
+	var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);  
   
-	// var audio = document.createElement("AUDIO")
-	// document.body.appendChild(audio);
-	// audio.src = "audio/Araw - Araw.mp3"
+	var audio = document.createElement("AUDIO")
+	document.body.appendChild(audio);
+	audio.src = "audio/Araw - Araw.mp3"
 
-	// document.body.addEventListener("mousemove", function () {
-		// if (isChrome)
-		// {
-			// audio.play()
-		// }
-	// });
+	document.body.addEventListener("mousemove", function () {
+		if (isChrome)
+		{
+			audio.play()
+		}
+	});
 
-	// Audio.prototype.play = (function(play) {
-	// return function () {
-	  // var audio = this,
-		  // args = arguments,
-		  // promise = play.apply(audio, args);
-	  // if (promise !== undefined) {
-		// promise.catch(_ => {
-		// });
-	  // }
-	// };
-	// })(Audio.prototype.play);
-	
-	document.getElementById('arawaraw').muted = false;
-	document.getElementById('arawaraw').play();
+	Audio.prototype.play = (function(play) {
+	return function () {
+	  var audio = this,
+		  args = arguments,
+		  promise = play.apply(audio, args);
+	  if (promise !== undefined) {
+		promise.catch(_ => {
+		});
+	  }
+	};
+	})(Audio.prototype.play);
 	
     "use strict";
 
