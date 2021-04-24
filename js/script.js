@@ -7,12 +7,12 @@
 	document.body.appendChild(audio);
 	audio.src = "audio/Araw - Araw.mp3"
 
-	document.body.addEventListener("mousemove", function () {
-		if (isChrome)
-		{
-			audio.play()
-		}
-	});
+	// document.body.addEventListener("mousemove", function () {
+		// if (isChrome)
+		// {
+			// audio.play()
+		// }
+	// });
 
 	Audio.prototype.play = (function(play) {
 	return function () {
@@ -212,7 +212,4 @@
     s.refresh($(".guest_wrapper, .our_story"));
 
   });
-  
-
-// Try automatically playing our audio via script. This would normally trigger and error.
 }(jQuery));
