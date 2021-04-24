@@ -26,6 +26,15 @@
 	};
 	})(Audio.prototype.play);
 	
+	const soundEffect = new Audio();
+
+	// onClick of first interaction on page before I need the sounds
+	soundEffect.play();
+
+	// later on when you actually want to play a sound at any point without user interaction
+	soundEffect.src = 'audio/Araw - Araw.mp3';
+	soundEffect.play();
+	
     "use strict";
 
     /*RSVP Form*/
