@@ -60,13 +60,56 @@
         $("input#code_" + type).focus();
         return false;
       }
+	  
+	  if ("01ce84968c6969bdd5d51c5eeaa3946a" != CryptoJS.MD5(code) &&
+		  "4ef1477dc99fb623fd5d06dc4b26d1aa" != CryptoJS.MD5(code) &&
+		  "85f007f8c50dd25f5a45fca73cad64bd" != CryptoJS.MD5(code) &&
+		  "535b8a7c260ccef00aa9ac0ecde6067f" != CryptoJS.MD5(code))
+		  {
+			$("input#code_" + type).css({border: "1px solid red"});
+			$("input#code_" + type).focus();
+			alert("Please enter a correct code.");
+			return false;
+		  }
+	  
+	  if ("01ce84968c6969bdd5d51c5eeaa3946a" == CryptoJS.MD5(code) && guest != 0)
+	  {
+        $("input#code_" + type).css({border: "1px solid red"});
+        $("input#code_" + type).focus();
+		alert("Please enter a correct code.");
+        return false;
+	  }
+	  
+	  if ("4ef1477dc99fb623fd5d06dc4b26d1aa" == CryptoJS.MD5(code) && guest != 1)
+	  {
+        $("input#code_" + type).css({border: "1px solid red"});
+        $("input#code_" + type).focus();
+		alert("Please enter a correct code.");
+        return false;
+	  }
+	  
+	  if ("85f007f8c50dd25f5a45fca73cad64bd" == CryptoJS.MD5(code) && guest != 2)
+	  {
+        $("input#code_" + type).css({border: "1px solid red"});
+        $("input#code_" + type).focus();
+		alert("Please enter a correct code.");
+        return false;
+	  }
+	  
+	  if ("535b8a7c260ccef00aa9ac0ecde6067f" == CryptoJS.MD5(code) && guest != 3)
+	  {
+        $("input#code_" + type).css({border: "1px solid red"});
+        $("input#code_" + type).focus();
+		alert("Please enter a correct code.");
+        return false;
+	  }
 
       console.log(name);
       console.log(contact);
       console.log(guest);
       console.log(code);
 
-      var dataString = '&entry.1860254061=' + name + '&entry.1583867941=' + contact + '&entry.1878355546=' + guest + '&entry.398472872=' + code;
+      var dataString = '&entry.1860254061=' + name + '&entry.1583867941=' + contact + '&entry.1014311907=' + guest + '&entry.398472872=' + code;
       var form = $(this);
       var str = form.serialize();
       function sent(){
