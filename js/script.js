@@ -113,7 +113,7 @@
       var form = $(this);
       var str = form.serialize();
       function sent(){
-        $('#div_' + type).html("<div id='form_send_message'>Thank you :)</div>", 1500);
+        $('#div_' + type).html("<div id='form_send_message'>Thank you. See you there! :)</div>", 1500);
       }
       $.ajax({
         type: "POST",
