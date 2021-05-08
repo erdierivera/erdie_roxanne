@@ -3,14 +3,15 @@
   
 	var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);  
   
-	var audio = document.createElement("AUDIO")
+	var audio = document.createElement("AUDIO");
+	audio.volume = 0.2;
 	document.body.appendChild(audio);
 	audio.src = "audio/Araw - Araw.mp3"
 
 	document.body.addEventListener("mousemove", function () {
 		if (isChrome)
 		{
-			audio.play()
+			audio.play();
 		}
 	});
 
