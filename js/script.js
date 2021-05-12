@@ -34,6 +34,16 @@
       send_form('block_1');
       return false;
     });
+	
+	$('#copyToClipboard').on("click", function (e) {	  
+		var $temp = $("<input>");
+		$("body").append($temp);
+		$temp.val($("#hashtag").text()).select();
+		document.execCommand("copy");
+		$temp.remove();
+		e.preventDefault();
+    });
+
 
     function send_form (type) {
 
