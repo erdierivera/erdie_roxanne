@@ -114,6 +114,14 @@
 		alert("Please enter a correct code.");
         return false;
 	  }
+	  
+	  if ("122e27d57ae8ecb37f3f1da67abb33cb" == CryptoJS.MD5(code) && guest != 4)
+	  {
+        $("input#code_" + type).css({border: "1px solid red"});
+        $("input#code_" + type).focus();
+		alert("Please enter a correct code.");
+        return false;
+	  }
 
       console.log(name);
       console.log(contact);
