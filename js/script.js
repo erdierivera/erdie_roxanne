@@ -75,7 +75,8 @@
 	  if ("01ce84968c6969bdd5d51c5eeaa3946a" != CryptoJS.MD5(code) &&
 		  "4ef1477dc99fb623fd5d06dc4b26d1aa" != CryptoJS.MD5(code) &&
 		  "85f007f8c50dd25f5a45fca73cad64bd" != CryptoJS.MD5(code) &&
-		  "535b8a7c260ccef00aa9ac0ecde6067f" != CryptoJS.MD5(code))
+		  "535b8a7c260ccef00aa9ac0ecde6067f" != CryptoJS.MD5(code) &&
+		  "122e27d57ae8ecb37f3f1da67abb33cb" != CryptoJS.MD5(code))
 		  {
 			$("input#code_" + type).css({border: "1px solid red"});
 			$("input#code_" + type).focus();
